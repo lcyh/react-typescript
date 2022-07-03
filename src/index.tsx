@@ -6,6 +6,7 @@ import { add, minus } from './header'
 // 处理兼容性问题
 console.log("service_test");
 minus(10, 3)
+console.log('master分支-1');
 
 if ("serviceWorker" in navigator) {
     console.log("service_worker");
