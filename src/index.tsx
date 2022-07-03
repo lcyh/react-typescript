@@ -3,10 +3,6 @@ import ReactDom from "react-dom";
 import "./index.less";
 import { add, minus } from './header'
 // 注册serviceWorker 
-// 处理兼容性问题
-console.log("service_test");
-minus(10, 3)
-console.log('master分支-1');
 
 if ("serviceWorker" in navigator) {
     console.log("service_worker");
@@ -32,12 +28,8 @@ const func1 = (str: string): void => {
     }
 };
 func1("我现在在使用Babel!哈哈");
-add(1, 2)
-console.log('master分支-2');
 
 ReactDom.render(
     <div className="box">Hello React!===========</div>,
     document.getElementById("root")
 );
-const d = 5
-const e = 6
