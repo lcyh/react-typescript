@@ -39,3 +39,4 @@ ReactDom.render(
     <div className="box">Hello React!===========</div>,
     document.getElementById("root")
 );
+const d = 5
