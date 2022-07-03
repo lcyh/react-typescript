@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.less";
-
+import { add } from './header'
 // 注册serviceWorker 
 // 处理兼容性问题
 console.log("service_test");
@@ -20,6 +20,7 @@ if ("serviceWorker" in navigator) {
             });
     });
 }
+
 /* 使用es6的箭头函数 */
 const func1 = (str: string): void => {
     console.log(str);
@@ -29,6 +30,7 @@ const func1 = (str: string): void => {
     }
 };
 func1("我现在在使用Babel!哈哈");
+add(1, 2)
 ReactDom.render(
     <div className="box">Hello React!===========</div>,
     document.getElementById("root")
