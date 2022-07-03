@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.less";
-import { add } from './header'
+import { add, minus } from './header'
 // 注册serviceWorker 
 // 处理兼容性问题
 console.log("service_test");
+minus(10, 3)
 
 if ("serviceWorker" in navigator) {
     console.log("service_worker");
