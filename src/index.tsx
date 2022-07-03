@@ -28,7 +28,7 @@ const func1 = (str: string): void => {
     }
 };
 func1("我现在在使用Babel!哈哈");
-
+const num1 = 1;
 ReactDom.render(
     <div className="box">Hello React!===========</div>,
     document.getElementById("root")
