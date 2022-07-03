@@ -32,7 +32,9 @@ const num1 = 'a'
 const num2 = 'b'
 console.log('master');
 
+const text = '完成'
 ReactDom.render(
     <div className="box">Hello React!===========</div>,
     document.getElementById("root")
 );
+console.log('hello');
